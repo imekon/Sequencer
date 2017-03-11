@@ -1,0 +1,40 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'MainForm'
+  ClientHeight = 534
+  ClientWidth = 783
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  inline PianoRollFrame: TPianoRollFrame
+    Left = 8
+    Top = 8
+    Width = 770
+    Height = 450
+    DoubleBuffered = True
+    Color = clWhite
+    ParentBackground = False
+    ParentColor = False
+    ParentDoubleBuffered = False
+    TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitTop = 8
+    ExplicitWidth = 770
+    ExplicitHeight = 450
+    inherited PianoRollPaint: TPaintBox
+      Width = 770
+      Height = 450
+      ExplicitWidth = 770
+      ExplicitHeight = 450
+    end
+  end
+end
