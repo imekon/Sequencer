@@ -37,4 +37,13 @@ object MainForm: TMainForm
       ExplicitHeight = 450
     end
   end
+  object DevicesBtn: TButton
+    Left = 8
+    Top = 464
+    Width = 75
+    Height = 25
+    Caption = 'Devices...'
+    TabOrder = 1
+    OnClick = DevicesBtnClick
+  end
 end

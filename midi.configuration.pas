@@ -11,7 +11,6 @@ type
     function GetNumOutputDevices: integer;
   public
     constructor Create;
-    destructor Destroy; override;
 
     function GetOutputDeviceName(index: integer): string;
 
@@ -25,12 +24,6 @@ implementation
 constructor TMIDIConfiguration.Create;
 begin
 
-end;
-
-destructor TMIDIConfiguration.Destroy;
-begin
-
-  inherited;
 end;
 
 function TMIDIConfiguration.GetNumOutputDevices: integer;

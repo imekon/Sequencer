@@ -6,7 +6,8 @@ uses
   frame.pianoroll in 'frame.pianoroll.pas' {PianoRollFrame: TFrame},
   helper.utilities in 'helper.utilities.pas',
   midi.output in 'midi.output.pas',
-  midi.configuration in 'midi.configuration.pas';
+  midi.configuration in 'midi.configuration.pas',
+  midi.output.form in 'midi.output.form.pas' {OutputMIDIDevicesForm};
 
 {$R *.res}
 
